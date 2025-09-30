@@ -1,8 +1,14 @@
 {
-  "name": "3dc Tools",
-  "description": "manifest.json description",
-  "private": true,
-  "version": "0.0.0",
+  "name": "3dcTools",
+  "version": "0.0.1",
+  "description": "Powertoys for 3dcenter.org",
+  "homepage": "https://github.com/golden-apple-research/3dctools",
+  "author": {
+    "name": "Malaccoda",
+    "email": "malaccoda@disroot.org"
+  },
+  "keywords": ["wxt", "webextension", "sceditor", "3dcenter"],
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "wxt",
@@ -18,8 +24,9 @@
     "typescript": "^5.9.2",
     "wxt": "^0.20.6"
   },
+  "licenses": {
+       "type": "MIT",
+       "url": "https://www.opensource.org/licenses/mit-license.php"
+  },
   "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184",
-  "dependencies": {
-    "@wxt-dev/module-solid": "^1.1.4"
-  }
 }
