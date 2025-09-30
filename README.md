@@ -40,7 +40,7 @@ Der Build-Output landet in `dist/`. Lade die ZIP in deinen Browser-Extensions-Ma
 
 ## Projektstruktur
 ``
-3dctools
+|-3dctools
 ├── src/
 │   ├── app.config.ts      # WXT-Konfiguration
 │   ├── assets/            # Statische Assets (Bilder, Icons etc.)
